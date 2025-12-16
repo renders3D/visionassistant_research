@@ -19,7 +19,7 @@ def run_yolo_test():
     # It will download automatically on the first run.
     print("🔄 Loading YOLOv8 Nano model...")
     try:
-        model = YOLO('yolov8n.pt')
+        model = YOLO('models/yolo/yolov8n.pt')
         print("✅ Model loaded successfully.")
     except Exception as e:
         print(f"❌ Error loading model: {e}")
