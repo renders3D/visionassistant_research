@@ -1,0 +1,15 @@
+numpy
+opencv-python
+pillow
+tqdm
+matplotlib
+Ultralytics
+ultralytics
+transformers
+timm
+huggingface_hub
+pyttsx3
+gTTS
+jupyter
+notebook
+ipympl
