@@ -1,0 +1,31 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+
+# --- Data & Models (Do not sync large files) ---
+data/raw/*
+data/processed/*
+models/**/*.pt
+models/**/*.onnx
+models/**/*.tflite
+models/**/*.h5
+utils/
+.qodo
+
+# Keep gitkeep to track folder structure
+!data/raw/.gitkeep
+!models/.gitkeep
+
+# --- IDEs & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Jupyter ---
+.ipynb_checkpoints
